@@ -14,9 +14,7 @@ export default function doPageConvert(config, to) {
     }
   }); */
   const arr = (
-    ((((window || {}).bucksCC || {}).config ||
-    {}).priceSelector ||
-    {}
+    (((window || {}).bucksCC || {}).config || {}).priceSelector || {}
   ).split(",");
   hxo$("arr").each(function(elements) {
     const self = this;
