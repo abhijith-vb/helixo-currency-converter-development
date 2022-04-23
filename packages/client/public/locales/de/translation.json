@@ -1,0 +1,179 @@
+{
+    "settings": {
+        "header": {
+            "title": "die Einstellungen",
+            "appStatus": "App-Status",
+            "save": "speichern"
+        },
+        "currencySelector": {
+            "general": "Allgemeines",
+            "selectCurrencies": "Währungen auswählen:",
+            "selectAll": "Wählen Sie Alle",
+            "deselectAll": "Alle abwählen",
+            "autoSwitchCurrencyBasedOnLocation": "Automatische Wechselwährung basierend auf Standort:",
+            "showCurrencySymbol": "Währungssymbol anzeigen:",
+            "pleaseSelectAtleastOneCurrency": "Bitte wählen Sie mindestens eine Währung aus",
+            "convertCurrencyToNonListed": "Automatische Umschaltung nur auf die bevorzugte Währung",
+            "convertCurrencyToNonListedDisc": "Wenn die lokale Währung des Kunden nicht über der Liste hinzugefügt wird, wird die App nicht in die lokale Währung konvertiert. Aktivieren Sie diese Option, um für alle Kunden zu konvertieren",
+            "showCurrencySymbolEg1": "Beispiel: Ohne Währungssymbol - 9,99 ",
+            "showCurrencySymbolEg2": "ZB: Mit Währungssymbol - 9,99 USD"
+        },
+        "theme": {
+            "theme": "Thema",
+            "currencyBoxTheme": "Währungsbox-Thema",
+            "default": "Standard",
+            "modernLayers": "Moderne Schichten",
+            "themeCustomisation": "Themenanpassung",
+            "backgroundColor": "Hintergrundfarbe:",
+            "textColor": "Textfarbe:",
+            "hoverColor": "Maus über Farbe:",
+            "borderStyle": "Randstil:",
+            "boxShadow": "Box Schatten",
+            "borderLine": "Grenzlinie",
+            "noBorder": "Keine Grenze",
+            "darkMode": "Dark Mode",
+            "flagStyle": "Flaggenstil",
+            "traditionalFlags": "Traditionelle Flaggen",
+            "modernFlags": "Moderne Flaggen",
+            "flagTheme": "Flaggen-Thema",
+            "rounded": "Gerundet",
+            "circle": "Kreis",
+            "flat": "Eben",
+            "flagDisplayOption": "Flag Anzeigeoptionen",
+            "showFlagAndCurrency": "Flagge und Währung anzeigen",
+            "showFlagOnly": "Nur Flagge anzeigen",
+            "showCurrencyOnly": "Nur Währung anzeigen",
+            "showCurrencyCodesOnly":"Währungscode nur in der Dropdown-Liste des Währungsfelds anzeigen"
+        },
+        "display": {
+            "display": "Anzeige",
+            "displayDesktop": "Desktop-Position",
+            "displayMobile": "Mobile Position",
+            "displayPositionType": "Positionieren Sie den Stil",
+            "floating": "Schwimmend",
+            "fixedPosition": "Benutzerdefinierte  Position",
+            "customPositionPlaceholder": "Benutzerdefinierte Positions-ID zur Anzeige des Währungsfelds",
+            "header": "Header",
+            "displayPosition": "Anzeigeposition:",
+            "customCurrencyBoxPosition": "Position der benutzerdefinierten Währungsbox:",
+            "topRight": "Oben rechts",
+            "topLeft": "Oben links",
+            "bottomRight": "Unten rechts",
+            "bottomLeft": "Unten links",
+            "showInDesktop": "Auf dem Desktop anzeigen:",
+            "showInMobileDevice": "Auf Mobilgerät anzeigen:",
+            "showOriginalPriceOnMouseHover": "Zeigen Sie den Originalpreis mit der Maus an:",
+            "notification": "Benachrichtigung",
+            "displayCartNotification": "Warenkorbbenachrichtigung anzeigen:",
+            "showCheckoutCurrencyNotificationInCart": "Kassenwährungsbenachrichtigung im Warenkorb anzeigen",
+            "sub": "Währungsauswahlfeld",
+            "proTip": "Pro-Tipp: Schalten Sie oben sowohl den Desktop als auch das Handy aus, um die Währungsumrechnerbox auszublenden",
+            "customDropdownCurrencyListPlacement": "Platzierung der benutzerdefinierten Dropdown-Währungsliste",
+            "customOptionPlacement": "Platzierung von benutzerdefinierten Optionen",
+            "optionPlacementType": "Option Platzierungstyp",
+            "customOptionPlacementMobile": "Benutzerdefinierte Optionsplatzierung für Mobilgeräte",
+            "optionPlacementTypeMobile": "Option Platzierungstyp für Mobilgeräte"
+        },
+        "priceDisplayOption": {
+            "roundingDecimalNotEqualToZero": "Die Dezimalrundung ist nicht gleich Null",
+            "roundDecimalDigits": "Runde Dezimalstellen:",
+            "roundingDecimal": "Rundungsdezimalzahl:",
+            "exampleText": "Beispiel: Wenn der konvertierte Preis 9.61 USD beträgt, wird er als 9.{{val}} USD angezeigt",
+            "priceDisplayOption": "Erweiterte Preisrundung",
+            "enablePriceRounding": "Aktivieren Sie die Preisrundung für die Standardgeschäftswährung",
+            "roundToDecimal": "Rund auf Dezimal",
+            "removeDecimal": "Dezimalstelle entfernen",
+            "none": "Keiner"
+        },
+        "activateInstantLoader": {
+            "instantLoader": "Instant Loader aktivieren:",
+            "alert": "HINWEIS: Wir fügen der Themendatei ein kleines Skript hinzu, damit der Instant Loader ordnungsgemäß funktioniert. Schalten Sie den Instant Loader vor der Deinstallation aus.",
+            "activate": "Instant Loader erfolgreich aktiviert",
+            "deactivate": "Instant Loader erfolgreich deaktiviert",
+            "error": "Fehler beim Speichern!"
+        },
+        "advanced": {
+            "title": "Fortgeschrittene",
+            "customCSS": "Benutzerdefinierte CSS",
+            "customTrigger": "Benutzerdefinierter Auslöser"
+        },
+        "customPosition": {
+            "title": "Erweiterte benutzerdefinierte Positionsplatzierung",
+            "currencyConverterBoxPlacement": "Platzierung der Währungsumrechnerbox",
+            "cartBannerPlacement": "Platzierung des Warenkorbbanners"
+        }
+    },
+    "onBoardingProgress": {
+        "step1": {
+            "title": "Richten Sie das Geldformat ein.",
+            "caption": "Richten Sie das Geldformat in den Shopify-Einstellungen ein",
+            "HTMLWithCurrency": "HTML mit Währung",
+            "HTMLWithoutCurrency": "HTML ohne Währung",
+            "copy": "Kopieren",
+            "nextCheckSettings": "Überprüfen Sie anschließend die Einstellungen",
+            "nextIHaveDoneThis": "Als nächstes habe ich das getan",
+            "youHaveAlreadyDoneThis": "Ja!! 🎉 Wenn Sie dies bereits getan haben, klicken Sie auf Weiter",
+            "copied": "kopiert",
+            "instructionForMoneyFormat": "Anweisungen zum Einrichten des Geldformats",
+            "step1": "Schritt 1: ",
+            "step2": "Schritt 2: ",
+            "step3": "Schritt 3: ",
+            "goToShopify": "Gehen Sie zu Shopify ",
+            "settingsGeneral": "die Einstellungen -> Allgemeines 🔗",
+            "clickOn": "Klicke auf ",
+            "changeFormatting": "Formatierung ändern",
+            "inStoreCurrencySection": " im Abschnitt Währung speichern",
+            "copyAndPaste": "Kopieren & Einfügen",
+            "theAboveMoneyFormatLikeTheFollowing": " die oben genannten Geldformate wie folgt.",
+            "youAreDone": "Sie sind fertig 🎉",
+            "spanTagAlertMessage": "Sie haben das Geldformat nicht richtig konfiguriert. Befolgen Sie die nachstehenden Anweisungen.",
+            "spanTagAlertDescription": "Sie müssen das Geldformat in den Shopify-Einstellungen konfigurieren, damit BUCKS: Currency Converter funktioniert.",
+            "spanTagError": "Das Geldformat ist in shopify nicht richtig konfiguriert",
+            "iHaveDoneThis": "ich hab's gemacht"
+        },
+        "step2": {
+            "title": "Überprüfen Sie die Einstellungen",
+            "caption": "Überprüfen Sie die Einstellungen und speichern Sie",
+            "checkTheBelowSettingsAndSave": "Überprüfen Sie die folgenden Einstellungen und klicken Sie auf Speichern!"
+        },
+        "step3": {
+            "title": "App aktivieren",
+            "caption": "Währungsumrechner aktivieren",
+            "youAreAlmostDoneEnableAppNow": "Du bist fast fertig! App jetzt aktivieren 🚀"
+        },
+        "step4": {
+            "title": "Feedback",
+            "review": {
+                "title": "Wir haben eine größere Mission",
+                "subHeadingOne": "Warum ist die App KOSTENLOS?",
+                "paragraphOne": "Wir sind in der Mission, 100.000 Händlern zu helfen, bis Ende dieses Jahres mit dem E-Commerce zu beginnen.",
+                "subHeadingTwo": "Wie wertvoll ist Ihre 1 Bewertung?",
+                "listOne": "Reine Motivation; Ja, es motiviert unsere Entwickler, mehr Kaffee in Codes umzuwandeln.",
+                "listTwo": "Es hilft, mehr Händler im Shopify App Store zu erreichen.",
+                "paragraphTwo": "Unterstützen Sie unsere Mission, indem Sie eine gute Bewertung abgeben.",
+                "paragraphThree": "Irren ist menschlich; zu helfen ist göttlich.",
+                "iSupportButton": "Ich unterstütze die Mission",
+                "iSupportAndClaim": "Ich unterstütze und beanspruche eine kostenlose Testversion"
+            }
+        },
+        "testApplication": {
+            "congtratulations": "Herzliche Glückwünsche!! 🎉",
+            "grabYourInternationalCustomers": "Schnappen Sie sich Ihre internationalen Kunden!",
+            "testInYourStore": "Testen Sie in Ihrem Shop",
+            "allWorksPerfect": "Alles funktioniert perfekt?",
+            "yesItIsPerfect": "Ja, es ist perfekt",
+            "noINeedHelp": "Nein, ich brauche Hilfe",
+            "pleaseGiveYourFeedback": "Wie bewerten Sie uns?",
+            "skip": "ich werde es später tun",
+            "submit": "einreichen",
+            "contactYourCustomerSupportTeam": "Kontaktieren Sie unser Kundensupport-Team",
+            "close": "Schließen"
+        }
+    },
+    "hardRefreshAlert": {
+        "title": "Bitte führen Sie eine Aktualisierung durch, um die Änderungen im Shopify Store nach dem Ändern der Konfiguration anzuzeigen",
+        "contentOnWindows": "On Windows: Ctrl + F5",
+        "contentOnMacSafari": "On Mac (Safari): CMD + OPTION + R",
+        "contentOnMacChrome": "On Mac (Chrome): CMD + SHIFT + R"
+    }
+}

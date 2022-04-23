@@ -1,0 +1,8 @@
+.integrate-box-switch{
+    padding-top: 20px;
+}
+@media(max-width:900px){
+    .integrate-box-switch{
+        width:100px;
+    }
+}

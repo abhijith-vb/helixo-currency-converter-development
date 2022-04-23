@@ -1,0 +1,46 @@
+.step-wrapper {
+    width: 450px;
+    margin-top: 15px;
+}
+.rate-feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.onboarding-4-review {
+    padding: 3em 0;
+    background-image: linear-gradient( 111.6deg, rgba(174,68,223,1) 27.3%, rgba(246,135,135,1) 112.7% );
+    background-color: rgba(174,68,223,1);
+    .onboarding-4-progress {
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+
+    .onboarding-4-completed{
+        line-height: 2;
+        font-size: 19px;
+    }
+    .onboarding-4-completed-text {
+        color: rgba(0, 0, 0, 0.2);
+    }
+    .ant-typography {
+        margin-bottom: 0;
+        // text-shadow: 1px 1px 0 #fd28f5;
+    }
+    .ant-rate-star-first, .ant-rate-star-second {
+        // color: #d8d8d8;
+    }
+    .ant-rate-star {
+        font-size: 35px;
+    }
+    .onboarding-4-why {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 2;
+        font-size: 18px;
+        .ant-typography {
+            color: #fff;
+        }
+    }
+}

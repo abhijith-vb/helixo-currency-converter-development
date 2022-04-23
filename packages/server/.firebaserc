@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "helixo-apps"
+  },
+  "targets": {
+    "helixo-apps": {
+      "hosting": {
+        "buckscc-prod": [
+          "buckscc-prod"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+@import '../scss/mixins';
+
+.youtube-button {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 50px;
+    left:0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.11);
+}
+.instruction-box {
+    max-width: 100%;
+    iframe {
+        width: 1000px;
+        height: 553px;
+        @include max-sm {
+            width: 100%; 
+            height: 373px;
+        }
+    }
+}
+.display-center{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.instruction-box{
+    cursor: pointer;
+    position: relative;
+}
+.youtube-button:hover {
+	color: red;
+}
+.youtube-button svg {
+	animation: zoom 1s ease infinite;
+}
+@keyframes zoom {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.5);}
+    100% {transform: scale(1);}
+  } /*End of Zoom in Keyframes */
+.spantag-iframe {
+	width: 100%;
+	height: 100%;
+}
+.spantag-instruction-button{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    margin: auto
+}

@@ -1,0 +1,1 @@
+export const formatCurrency = (format, money) => (format.replace(/(<([^>]+)>)/ig, '')).replace(/({{([^}]+)}})/ig, (+money).toFixed(2))

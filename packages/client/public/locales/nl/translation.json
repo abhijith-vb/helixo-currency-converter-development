@@ -1,0 +1,179 @@
+{
+    "settings": {
+        "header": {
+            "title": "instellingen",
+            "appStatus": "App-status",
+            "save": "Opslaan"
+        },
+        "currencySelector": {
+            "general": "Algemeen",
+            "selectCurrencies": "Selecteer valuta's:",
+            "selectAll": "Selecteer alles",
+            "deselectAll": "Deselecteer alles",
+            "autoSwitchCurrencyBasedOnLocation": "Valuta automatisch wisselen op basis van locatie:",
+            "showCurrencySymbol": "Valutasymbool weergeven:",
+            "pleaseSelectAtleastOneCurrency": "Selecteer ten minste één valuta",
+            "convertCurrencyToNonListed": "Automatisch overschakelen naar alleen de gewenste valuta",
+            "convertCurrencyToNonListedDisc": "Als de lokale valuta van de klant niet boven de lijst is toegevoegd, wordt de app niet geconverteerd naar hun lokale valuta. Schakel dit in om voor alle klanten te converteren",
+            "showCurrencySymbolEg1": "Bijv .: Zonder valutasymbool - $ 9,99",
+            "showCurrencySymbolEg2": "met valutasymbool - $ 9,99 USD"
+        },
+        "theme": {
+            "theme": "Thema",
+            "currencyBoxTheme": "Valuta vakthema",
+            "default": "Standaard",
+            "modernLayers": "Moderne lagen",
+            "themeCustomisation": "Thema aanpassen",
+            "backgroundColor": "Achtergrond kleur:",
+            "textColor": "Tekst kleur:",
+            "hoverColor": "Muis over kleur:",
+            "borderStyle": "Randstijl:",
+            "boxShadow": "doos schaduw",
+            "borderLine": "Grenslijn",
+            "noBorder": "Geen grens",
+            "darkMode": "Donkere modus",
+            "flagStyle": "Vlagstijl",
+            "traditionalFlags": "Traditionele vlaggen",
+            "modernFlags": "Moderne vlaggen",
+            "flagTheme": "Markeer Theme",
+            "rounded": "Afgerond",
+            "circle": "Cirkel",
+            "flat": "Vlak",
+            "flagDisplayOption": "Markeer weergave-opties",
+            "showFlagAndCurrency": "Vlag en valuta tonen",
+            "showFlagOnly": "Alleen vlag tonen",
+            "showCurrencyOnly": "Alleen valuta weergeven",
+            "showCurrencyCodesOnly":"Toon valutacode alleen in de vervolgkeuzelijst van het valutavak"
+        },
+        "display": {
+            "display": "Scherm",
+            "displayDesktop": "Bureaubladpositie",
+            "displayMobile": "Mobiele positie",
+            "displayPositionType": "Positie stijl",
+            "floating": "Drijvend",
+            "fixedPosition": "Aangepaste positie",
+            "customPositionPlaceholder": "Aangepaste positie-ID om valutadoos weer te geven",
+            "header": "hoofd",
+            "displayPosition": "Weergave positie:",
+            "customCurrencyBoxPosition": "Aangepaste valutadoospositie:",
+            "topRight": "Rechtsboven",
+            "topLeft": "Linksboven",
+            "bottomRight": "Rechts onder",
+            "bottomLeft": "Linksonder",
+            "showInDesktop": "Weergeven op bureaublad:",
+            "showInMobileDevice": "Weergeven op mobiel apparaat:",
+            "showOriginalPriceOnMouseHover": "Oorspronkelijke prijs weergeven bij muisaanwijzer:",
+            "notification": "Kennisgeving",
+            "displayCartNotification": "Winkelwagenmelding weergeven:",
+            "showCheckoutCurrencyNotificationInCart": "Valutamelding weergeven in winkelwagen",
+            "sub": "Valutaselectievak",
+            "proTip": " Pro-tip: Schakel hierboven zowel desktop als mobiel uit om de valuta-omzetter te verbergen",
+            "customDropdownCurrencyListPlacement": "Plaatsing van aangepaste valutalijst in vervolgkeuzelijst",
+            "customOptionPlacement": "Aangepaste optieplaatsing",
+            "optionPlacementType": "Optie plaatsingstype",
+            "customOptionPlacementMobile": "Aangepaste optieplaatsing voor mobiel",
+            "optionPlacementTypeMobile": "Optie plaatsingstype voor mobiel"
+        },
+        "priceDisplayOption": {
+            "roundingDecimalNotEqualToZero": "Afronding decimaal is niet gelijk aan nul",
+            "roundDecimalDigits": "Ronde decimale cijfers:",
+            "roundingDecimal": "Afronding Decimaal:",
+            "exampleText": "Bijv .: Als de geconverteerde prijs $ 9,61 is, wordt deze weergegeven als $ 9.{{val}}",
+            "priceDisplayOption": "Geavanceerde prijsafronding",
+            "enablePriceRounding": "Prijsafronding inschakelen voor standaard winkelvaluta",
+            "roundToDecimal": "Afronden op decimaal",
+            "removeDecimal": "Decimaal verwijderen",
+            "none": "Geen"
+        },
+        "activateInstantLoader": {
+            "instantLoader": "Activeer Instant Loader:",
+            "alert": "OPMERKING: We zullen een klein script aan het themabestand toevoegen om de instant loader correct te laten werken. SCHAKEL daarom de Instant Loader UIT voordat u de installatie ongedaan maakt.",
+            "activate": "Instant Loader succesvol geactiveerd",
+            "deactivate": "Instant Loader succesvol gedeactiveerd",
+            "error": "Fout bij opslaan!"
+        },
+        "advanced": {
+            "title": "Geavanceerd",
+            "customCSS": "Aangepaste CSS",
+            "customTrigger": "Aangepaste Trigger"
+        },
+        "customPosition": {
+            "title": "Geavanceerde plaatsing van aangepaste posities",
+            "currencyConverterBoxPlacement": "Valuta-omrekenbox plaatsen",
+            "cartBannerPlacement": "Plaatsing van winkelwagenbanner"
+        }
+    },
+    "onBoardingProgress": {
+        "step1": {
+            "title": "Stel het geldformaat in.",
+            "caption": "Stel het geldformaat in in Shopify-instellingen",
+            "HTMLWithCurrency": " HTML met valuta",
+            "HTMLWithoutCurrency": "HTML zonder valuta",
+            "copy": "Kopiëren",
+            "nextCheckSettings": "Controleer vervolgens de instellingen",
+            "nextIHaveDoneThis": "Vervolgens heb ik dit gedaan",
+            "youHaveAlreadyDoneThis": "yey!! 🎉 U hebt dit al gedaan, klik op Volgende",
+            "copied": "gekopieerd",
+            "instructionForMoneyFormat": "Instructies voor het instellen van het geldformaat",
+            "step1": "Stap 1: ",
+            "step2": "Stap 2: ",
+            "step3": "Stap 3: ",
+            "goToShopify": "Ga naar Shopify ",
+            "settingsGeneral": "instellingen -> Algemeen 🔗",
+            "clickOn": "Klik op ",
+            "changeFormatting": "Wijzig de opmaak",
+            "inStoreCurrencySection": " in het gedeelte Valuta van winkel",
+            "copyAndPaste": "Kopiëren & Plakken",
+            "theAboveMoneyFormatLikeTheFollowing": " de bovenstaande geldformaten zoals de volgende.",
+            "youAreDone": "Je bent klaar 🎉",
+            "spanTagAlertMessage": "U hebt het geldformaat niet correct geconfigureerd. Volg de onderstaande instructies.",
+            "spanTagAlertDescription": "U moet het geldformaat configureren in shopify-instellingen om BUCKS: Currency Converter te laten werken.",
+            "spanTagError": "Geldformaat is niet correct geconfigureerd in shopify",
+            "iHaveDoneThis": "ik heb dit gedaan"
+        },
+        "step2": {
+            "title": "Controleer instellingen",
+            "caption": "Controleer de instellingen en sla op",
+            "checkTheBelowSettingsAndSave": "Controleer de onderstaande instellingen en druk op Opslaan!"
+        },
+        "step3": {
+            "title": "App inschakelen",
+            "caption": "Valutacalculator inschakelen",
+            "youAreAlmostDoneEnableAppNow": "Je bent bijna klaar! Schakel de app nu in 🚀"
+        },
+        "step4": {
+            "title": "Feedback",
+            "review": {
+                "title": "We hebben een grotere missie",
+                "subHeadingOne": "Waarom is de app GRATIS?",
+                "paragraphOne": "We hebben een missie om 100K Merchants te helpen om tegen het einde van dit jaar aan de slag te gaan met e-commerce.",
+                "subHeadingTwo": "Hoe waardevol is uw 1 recensie zo waardevol?",
+                "listOne": "Pure motivatie; Ja, het motiveert onze ontwikkelaars om meer koffie in codes te veranderen.",
+                "listTwo": "Het helpt om meer verkopers te bereiken in de Shopify-app store.",
+                "paragraphTwo": "Ondersteun onze missie door een goede recensie achter te laten.",
+                "paragraphThree": "Vergissen is menselijk; helpen is goddelijk.",
+                "iSupportButton": "Ik steun de missie",
+                "iSupportAndClaim": "Ik steun en claim een ​​gratis proefperiode"
+            }
+        },
+        "testApplication": {
+            "congtratulations": "Gefeliciteerd!! 🎉",
+            "grabYourInternationalCustomers": "Grijp uw internationale klanten!",
+            "testInYourStore": "Test in uw winkel",
+            "allWorksPerfect": "Werkt alles perfect?",
+            "yesItIsPerfect": "Ja, het is perfect",
+            "noINeedHelp": "Nee, ik heb hulp nodig",
+            "pleaseGiveYourFeedback": "Hoe beoordeelt u ons?",
+            "skip": "ik doe het later",
+            "submit": "voorleggen",
+            "contactYourCustomerSupportTeam": "Neem contact op met onze klantenservice",
+            "close": "Dichtbij"
+        }
+    },
+    "hardRefreshAlert": {
+        "title": " Gelieve hard te vernieuwen om de veranderingen in shopify store te zien na het wijzigen van de configuratie.",
+        "contentOnWindows": "Op Windows: Ctrl + F5",
+        "contentOnMacSafari": "On Mac (Safari): CMD + OPTION + R",
+        "contentOnMacChrome": "Op Mac: CMD + SHIFT + R"
+    }
+}

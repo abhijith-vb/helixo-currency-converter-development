@@ -1,0 +1,144 @@
+@import "./components/header.css";
+@import "./components/currencySelector.css";
+@import "./components/themeCustomisation.css";
+@import "./components/displayBox.css";
+@import "./components/priceDisplayOption.css";
+@import "./components/integrateBox.css";
+@import './components/languageTranslator.scss';
+@import "./scss/root";
+@import "./components/advanced.scss";
+@import "./components/feedbackRating.scss";
+@import "./components/onboardingProgress.scss";
+@import "./components/spanTagInstruction.scss";
+@import "./components/advanced.scss";
+/*
+Loader background
+*/
+.pre-uloader {
+	background: rgba(244, 246, 248, 0.77);
+}
+.onboarding-Image {
+	width: 200px;
+	margin-bottom: 1em;
+}
+.buckscc-ui {
+	img {
+		max-width: 100%;
+	}
+
+	.ant-select-multiple .ant-select-selection-item {
+		margin: 3px
+	}
+	.margin-bottom-10 {
+		margin-bottom: 10px;
+	}
+	.margin-bottom-20 {
+		margin-bottom: 20px;
+	}
+	.margin-top-10 {
+		margin-top: 10px;
+	}
+	.margin-top-20 {
+		margin-top: 20px;
+	}
+}
+.ant-layout-content {
+	padding-bottom: 0;
+}
+.ant-layout {
+	min-height: 100vh !important;
+	background: #f4f6f8 !important;
+}
+.ant-layout-footer {
+	padding-top: 10px;
+}
+.ant-form-item {
+    margin-bottom: 12px !important
+}
+// scroll bar style
+
+::-webkit-scrollbar {
+    width: 9px;
+    background-color: rgba(231, 234, 236, 0.53);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.18);
+}
+::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+}
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+.uheartbeat {
+    animation: heartbeat 3s ease infinite;
+    min-width: 90px
+}
+
+@-webkit-keyframes heartbeat {
+    0% {
+        -webkit-transform: scale(.95);
+        transform: scale(.95)
+    }
+
+    20% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+
+    40% {
+        -webkit-transform: scale(.95);
+        transform: scale(.95)
+    }
+
+    60% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+
+    80% {
+        -webkit-transform: scale(.95);
+        transform: scale(.95)
+    }
+
+    to {
+        -webkit-transform: scale(.95);
+        transform: scale(.95)
+    }
+}
+
+@keyframes heartbeat {
+    0% {
+        -webkit-transform: scale(.95);
+        transform: scale(.95)
+    }
+
+    20% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+
+    40% {
+        -webkit-transform: scale(.95);
+        transform: scale(.95)
+    }
+
+    60% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+
+    80% {
+        -webkit-transform: scale(.95);
+        transform: scale(.95)
+    }
+
+    to {
+        -webkit-transform: scale(.95);
+        transform: scale(.95)
+    }
+}

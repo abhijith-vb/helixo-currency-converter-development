@@ -1,0 +1,179 @@
+{
+    "settings": {
+        "header": {
+            "title": "asetukset",
+            "appStatus": "Sovelluksen tila",
+            "save": "Tallentaa"
+        },
+        "currencySelector": {
+            "general": "yleinen",
+            "selectCurrencies": "Valitse valuutat:",
+            "selectAll": "Valitse kaikki",
+            "deselectAll": "Poista kaikki valinnat",
+            "autoSwitchCurrencyBasedOnLocation": "Vaihda valuutta automaattisesti sijainnin perusteella:",
+            "showCurrencySymbol": "Näytä valuutasymboli:",
+            "pleaseSelectAtleastOneCurrency": "Valitse vähintään yksi valuutta",
+            "convertCurrencyToNonListed": "Automaattinen vaihto vain haluttuun valuuttaan",
+            "convertCurrencyToNonListedDisc": "Jos asiakkaan paikallista valuuttaa ei lisätä luettelon yläpuolelle, sovellus ei muunna heidän paikallisvaluuttaansa. Kytke tämä päälle muuntaaksesi kaikki asiakkaat",
+            "showCurrencySymbolEg1": "Esimerkiksi: ilman valuutasymbolia - 9,99 ",
+            "showCurrencySymbolEg2": "Esimerkiksi: valuuttasymbolilla - 9,99 dollaria"
+        },
+        "theme": {
+            "theme": "Teema",
+            "currencyBoxTheme": "Valuuttalaatikon teema",
+            "default": "oletusarvo",
+            "modernLayers": "Nykyaikaiset kerrokset",
+            "themeCustomisation": "Teeman mukauttaminen",
+            "backgroundColor": "Taustaväri:",
+            "textColor": "Tekstin väri:",
+            "hoverColor": "Hiiri yli värin:",
+            "borderStyle": "Reunustyyli:",
+            "boxShadow": "Laatikon varjo",
+            "borderLine": "Rajaviiva",
+            "noBorder": "Ei reunaa",
+            "darkMode": "Tumma tila",
+            "flagStyle": "Lippu tyyli",
+            "traditionalFlags": "Perinteiset liput",
+            "modernFlags": "Nykyaikaiset liput",
+            "flagTheme": "Lipputeema",
+            "rounded": "Pyöristetty",
+            "circle": "Ympyrä",
+            "flat": "tasainen",
+            "flagDisplayOption": "Lippujen näyttöasetukset",
+            "showFlagAndCurrency": "Näytä lippu ja valuutta",
+            "showFlagOnly": "Näytä vain lippu",
+            "showCurrencyOnly": "Näytä vain valuutta",
+            "showCurrencyCodesOnly":"Näytä valuuttakoodi vain valintaruudun avattavassa luettelossa"
+        },
+        "display": {
+            "display": "Näyttö",
+            "displayDesktop": "Työpöydän sijainti",
+            "displayMobile": " Mobiili sijainti",
+            "displayPositionType": "Sijaintityyli",
+            "floating": "Kelluva",
+            "fixedPosition": "Mukautettu sijainti",
+            "customPositionPlaceholder": "Muokattu sijainti-tunnus valuuttaruudun näyttämiseksi",
+            "header": "ylätunniste",
+            "displayPosition": "Näytön sijainti:",
+            "customCurrencyBoxPosition": "Muokatun valuutanruudun sijainti:",
+            "topRight": "Yläoikea",
+            "topLeft": "Ylävasen",
+            "bottomRight": "Ala oikea",
+            "bottomLeft": "Alhaalla vasemmalla",
+            "showInDesktop": "Näytä työpöydällä:",
+            "showInMobileDevice": "Näytä mobiililaitteessa:",
+            "showOriginalPriceOnMouseHover": "Näytä alkuperäinen hinta hiirellä:",
+            "notification": "ilmoitus",
+            "displayCartNotification": "Näytä ostoskorin ilmoitus:",
+            "showCheckoutCurrencyNotificationInCart": "Näytä kassan valuuttailmoitus ostoskorissa",
+            "sub": "Valuuttavalitsin",
+            "proTip": "Pro-vinkki: Sammuta sekä yllä oleva työpöytä että mobiili, jotta piilota valuuttamuunnin-ruutu",
+            "customDropdownCurrencyListPlacement": "Mukautettu avattava valikkoluettelon sijoittelu",
+            "customOptionPlacement": "Mukautetun vaihtoehdon sijoittelu",
+            "optionPlacementType": "Vaihtoehto Sijoittelutyyppi",
+            "customOptionPlacementMobile": "Mukautettu vaihtoehto mobiililaitteille",
+            "optionPlacementTypeMobile": "Vaihtoehto Sijoittelutyyppi mobiililaitteille"
+        },
+        "priceDisplayOption": {
+            "roundingDecimalNotEqualToZero": "Pyöristävä desimaali ei ole nolla",
+            "roundDecimalDigits": "Pyöristetyt desimaalinumero:",
+            "roundingDecimal": "Pyöristettävä desimaali:",
+            "exampleText": "Esimerkiksi: Jos muunnettu hinta on 9.61 dollaria, se näytetään 9.{{val}} dollarina",
+            "priceDisplayOption": "Edistynyt hinta pyöristäminen",
+            "enablePriceRounding": "Ota käyttöön kaupan oletusvaluutan hinnan pyöristäminen",
+            "roundToDecimal": "Pyöreä desimaaliin",
+            "removeDecimal": "Poista desimaali",
+            "none": "Ei mitään"
+        },
+        "activateInstantLoader": {
+            "instantLoader": "Aktivoi pikalatauslaite:",
+            "alert": "HUOMAUTUS: Lisäämme pienen komentosarjan tematiedostoon, jotta pikalatauslaite toimisi oikein. Joten KYTKE pikalatauslaite ennen asennuksen poistamista.",
+            "activate": "Pikakuormaaja aktivoitu onnistuneesti",
+            "deactivate": "Pikakuormaimen deaktivointi onnistui",
+            "error": "Virhe tallennettaessa!"
+        },
+        "advanced": {
+            "title": "Pitkälle kehittynyt",
+            "customCSS": "Mukautettu CSS",
+            "customTrigger": "Mukautettu Laukaisin"
+        },
+        "customPosition": {
+            "title": "Edistyksellinen mukautetun sijainnin sijoittelu",
+            "currencyConverterBoxPlacement": "Valuuttamuunnin-laatikon sijoittelu",
+            "cartBannerPlacement": "Ostoskorin bannerin sijoittaminen"
+        }
+    },
+    "onBoardingProgress": {
+        "step1": {
+            "title": "Asenna rahamuoto.",
+            "caption": "Asenna rahamuoto Shopify-asetuksissa",
+            "HTMLWithCurrency": "HTML valuutalla",
+            "HTMLWithoutCurrency": "HTML ilman valuuttaa",
+            "copy": "Kopio",
+            "nextCheckSettings": "Seuraavaksi Tarkista asetukset",
+            "nextIHaveDoneThis": "Seuraavaksi olen tehnyt tämän",
+            "youHaveAlreadyDoneThis": "Yey!! 🎉 Olet jo tehnyt tämän, napsauta Seuraava",
+            "copied": "kopioitu",
+            "instructionForMoneyFormat": "Ohjeet rahamuodon asettamiseen",
+            "step1": "Vaihe 1: ",
+            "step2": "Vaihe 2: ",
+            "step3": "Vaihe 3: ",
+            "goToShopify": "Siirry Shopifyn ",
+            "settingsGeneral": "asetukset -> yleinen 🔗",
+            "clickOn": "Klikkaa ",
+            "changeFormatting": "Muuta muotoilua",
+            "inStoreCurrencySection": " Kaupan valuutta -osiossa",
+            "copyAndPaste": "Kopio & liitä",
+            "theAboveMoneyFormatLikeTheFollowing": " yllä olevat rahamuodot pitävät seuraavista.",
+            "youAreDone": "Olet valmis 🎉",
+            "spanTagAlertMessage": "Et ole määrittänyt rahamuotoa oikein, noudata alla olevia ohjeita.",
+            "spanTagAlertDescription": "Sinun on määritettävä rahamuoto shopify-asetuksissa, jotta BUCKS: Currency Converter toimii.",
+            "spanTagError": "Rahamuotoa ei ole määritetty oikein shopifyssa",
+            "iHaveDoneThis": "Olen tehnyt tämän"
+        },
+        "step2": {
+            "title": "Tarkista asetukset",
+            "caption": "Tarkista asetukset ja Tallenna",
+            "checkTheBelowSettingsAndSave": "Tarkista alla olevat asetukset ja paina Tallenna!"
+        },
+        "step3": {
+            "title": "Ota sovellus käyttöön",
+            "caption": "Ota valuuttamuunnin käyttöön",
+            "youAreAlmostDoneEnableAppNow": "Olet melkein valmis! Ota sovellus käyttöön nyt 🚀"
+        },
+        "step4": {
+            "title": "palaute",
+            "review": {
+                "title": "Meillä on suurempi tehtävä",
+                "subHeadingOne": "Miksi sovellus on ILMAINEN?",
+                "paragraphOne": "Pyrimme auttamaan 100K-kauppiaita aloittamaan verkkokaupan tämän vuoden loppuun mennessä.",
+                "subHeadingTwo": "Kuinka 1 arvostelu on niin arvokas?",
+                "listOne": "Puhdas motivaatio; Kyllä, se motivoi kehittäjiämme muuttamaan enemmän kahvia koodeiksi.",
+                "listTwo": "Se auttaa tavoittamaan enemmän kauppiaita Shopify-sovelluskaupassa.",
+                "paragraphTwo": "Tue missioamme jättämällä hyvä arvostelu.",
+                "paragraphThree": "Erehtyminen on inhimillistä; auttaa on jumalallinen.",
+                "iSupportButton": "Tuen operaatiota",
+                "iSupportAndClaim": "Tuen ja vaatin ilmaista kokeiluversiota"
+            }
+        },
+        "testApplication": {
+            "congtratulations": "Onnittelut!! 🎉",
+            "grabYourInternationalCustomers": "Tartu kansainvälisiin asiakkaisiisi!",
+            "testInYourStore": "Test in your Store",
+            "allWorksPerfect": "Kaikki toimii täydellisesti?",
+            "yesItIsPerfect": "Kyllä, se on täydellinen",
+            "noINeedHelp": "Ei, tarvitsen apua",
+            "pleaseGiveYourFeedback": "Kuinka arvioit meitä?",
+            "skip": "Teen sen myöhemmin",
+            "submit": "Lähetä",
+            "contactYourCustomerSupportTeam": "Ota yhteyttä asiakastukitiimiimme",
+            "close": "kiinni"
+        }
+    },
+    "hardRefreshAlert": {
+        "title": "Päivitä kova päivitys nähdäksesi muutokset shopify-kaupassa konfiguraation vaihtamisen jälkeen.",
+        "contentOnWindows": "On Windows: Ctrl + F5",
+        "contentOnMacSafari": "On Mac (Safari): CMD + OPTION + R",
+        "contentOnMacChrome": "On Mac (Chrome): CMD + SHIFT + R"
+    }
+}

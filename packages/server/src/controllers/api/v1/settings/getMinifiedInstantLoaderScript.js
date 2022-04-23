@@ -1,0 +1,4 @@
+const getMinifiedInstantLoaderScript = (domain, myshopify_domain) =>
+    `!function(){function t(t){const e=document.createElement("style");e.innerText=t,document.head.appendChild(e)}function e(t){const e=document.createElement("script");e.type="text/javascript",e.text=t,document.head.appendChild(e),console.log("%cBUCKSCC: Instant Loader Activated ⚡️","background: #1c64f6; color: #fff; font-size: 12px; font-weight:bold; padding: 5px 10px; border-radius: 3px")}t("span.money{color: transparent;}"),setTimeout(function(){t("span.money{color: inherit !important}")},1500);let n=sessionStorage.getItem("bucksccHash");(n=n?JSON.parse(n):null)?e(n):fetch("https://${domain}/apps/buckscc/sdk.min.js?shop=${myshopify_domain}",{mode:"no-cors"}).then(function(t){return t.text()}).then(function(t){if((t||"").length>100){const o=JSON.stringify(t);sessionStorage.setItem("bucksccHash",o),n=t,e(t)}})}();`;
+
+module.exports = getMinifiedInstantLoaderScript;

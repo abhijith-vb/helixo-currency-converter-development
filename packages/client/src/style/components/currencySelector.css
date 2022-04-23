@@ -1,0 +1,49 @@
+.currencySelector-main .hxoPolaris-Card {
+	/* border-radius: 4px;
+    padding: 20px 20px 20px 20px;
+    background-color: #fff; */
+}
+.currencySelector-text {
+	padding: 10px 10px 10px 10px;
+}
+.borderBox {
+    padding: 2em 1em;
+    margin-top: 1em;
+    border-radius: 10px;
+    border: 1px solid #e2e3ea;
+    background: #fff;
+    align-items: center;
+    flex-flow: initial;
+}
+
+.borderBox .boxChild {
+    padding: 0 8px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.boxChild-disc{
+    font-size: 13px;
+    font-weight: normal;
+}
+.borderBox .boxChild > *{
+    display: block
+}
+.currencySelector-selectall {
+	padding-right: 10px;
+}
+.currencySelector-Switches {
+	text-align: right;
+	padding-top: 30px;
+}
+.currencySelector-text > * {
+    display: block;
+}
+@media (max-width: 900px) {
+	.currencySelector-text {
+		width: 150px;
+	}
+	.currencySelector-selectall {
+		width: 100px;
+	}
+}

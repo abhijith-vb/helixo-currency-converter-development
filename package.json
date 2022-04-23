@@ -1,0 +1,54 @@
+{
+    "name": "buckscc-app",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "bootstrap": "lerna clean -y && lerna bootstrap --use-workspaces && yarn link-packages",
+        "start": "yarn workspace server start",
+        "link-packages": "sh linkLocalPackages.sh",
+        "client": "yarn workspace client start",
+        "client:build": "yarn workspace client build",
+        "server": "yarn workspace server nodemon",
+        "server:debug": "yarn workspace server debug",
+        "tunnel": "yarn workspace server tunnel",
+        "widgets": "yarn workspace widgets watch",
+        "widgets:build": "yarn workspace widgets build",
+        "widgets:dev": "yarn workspace widgets watch:dev"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^8.3.5",
+        "@commitlint/config-conventional": "^8.3.4",
+        "babel-eslint": "^10.0.3",
+        "braces": "^3.0.2",
+        "conventional-commit-types-emoji": "^0.1.0",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-config-wesbos": "^0.0.19",
+        "eslint-plugin-html": "^6.0.0",
+        "eslint-plugin-import": "^2.20.1",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-prettier": "^3.1.2",
+        "eslint-plugin-react": "^7.18.3",
+        "eslint-plugin-react-hooks": "^2.3.0",
+        "husky": "^4.2.3",
+        "lerna": "^3.20.2",
+        "prettier": "^1.19.1",
+        "ora": "^5.4.0"
+    },
+    "husky": {
+        "hooks": {
+            "commit-msg": "[[ -n $HUSKY_BYPASS ]] || commitlint -E HUSKY_GIT_PARAMS"
+        }
+    },
+    "commitlint": {
+        "extends": [
+            "@commitlint/config-conventional"
+        ]
+    },
+    "dependencies": {
+        "install-peerdeps": "^2.0.1"
+    }
+}

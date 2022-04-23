@@ -1,0 +1,179 @@
+{
+    "settings": {
+        "header": {
+            "title": "設定",
+            "appStatus": "アプリのステータス",
+            "save": "セーブ"
+        },
+        "currencySelector": {
+            "general": "全般",
+            "selectCurrencies": "通貨を選択：",
+            "selectAll": "すべて選択",
+            "deselectAll": "すべての選択を解除",
+            "autoSwitchCurrencyBasedOnLocation": "ロケーションに基づく自動切り替え通貨：",
+            "showCurrencySymbol": "通貨記号を表示：",
+            "pleaseSelectAtleastOneCurrency": "少なくとも1つの通貨を選択してください",
+            "convertCurrencyToNonListed": "優先通貨のみに自動切り替え",
+            "convertCurrencyToNonListedDisc": "お客様の現地通貨が上記のリストに追加されていない場合、アプリは現地通貨に変換されません。これをオンにして、すべての顧客のために変換します",
+            "showCurrencySymbolEg1": "例：通貨記号なし-$ 9.99",
+            "showCurrencySymbolEg2": "例：通貨記号付き-$ 9.99 USD"
+        },
+        "theme": {
+            "theme": "テーマ",
+            "currencyBoxTheme": "通貨ボックスのテーマ",
+            "default": "デフォルト",
+            "modernLayers": "モダンレイヤー",
+            "themeCustomisation": "テーマのカスタマイズ",
+            "backgroundColor": "背景色：",
+            "textColor": "テキストの色：",
+            "hoverColor": "マウスオーバーカラー：",
+            "borderStyle": "ボーダースタイル：",
+            "boxShadow": "ボックスシャドウ",
+            "borderLine": "境界線",
+            "noBorder": "境界が無い",
+            "darkMode": "ダークモード",
+            "flagStyle": "旗のスタイル",
+            "traditionalFlags": "伝統的な旗",
+            "modernFlags": "現代の旗",
+            "flagTheme": "フラグのテーマ",
+            "rounded": "丸め",
+            "circle": "サークル",
+            "flat": " 平らな",
+            "flagDisplayOption": "フラグ表示オプション",
+            "showFlagAndCurrency": "フラグと通貨を表示",
+            "showFlagOnly": "フラグのみを表示",
+            "showCurrencyOnly": "通貨のみを表示",
+            "showCurrencyCodesOnly":"通貨ボックスのドロップダウンリストにのみ通貨コードを表示する"
+        },
+        "display": {
+            "display": "表示",
+            "displayDesktop": "デスクトップの位置",
+            "displayMobile": "モバイルポジション",
+            "displayPositionType": "位置スタイル",
+            "floating": "フローティング",
+            "fixedPosition": "カスタムポジション",
+            "customPositionPlaceholder": "通貨ボックスを表示するカスタム位置ID",
+            "header": "ヘッダ",
+            "displayPosition": "表示位置：",
+            "customCurrencyBoxPosition": "カスタム通貨ボックスの位置：",
+            "topRight": "右上",
+            "topLeft": "左上",
+            "bottomRight": "右下",
+            "bottomLeft": "左下の",
+            "showInDesktop": "デスクトップに表示：",
+            "showInMobileDevice": "モバイルデバイスに表示：",
+            "showOriginalPriceOnMouseHover": "マウスオーバーで元の価格を表示：",
+            "notification": "お知らせ",
+            "displayCartNotification": "カート通知の表示：",
+            "showCheckoutCurrencyNotificationInCart": "カートにチェックアウト通貨通知を表示する",
+            "sub": "通貨セレクターボックス",
+            "proTip": "プロのヒント：上記のデスクトップとモバイルの両方をオフにして、通貨換算ボックスを非表示にします",
+            "customDropdownCurrencyListPlacement": "カスタムドロップダウン通貨リストの配置",
+            "customOptionPlacement": "カスタムオプションの配置",
+            "optionPlacementType": "オプション配置タイプ",
+            "customOptionPlacementMobile": "モバイル向けのカスタムオプションの配置",
+            "optionPlacementTypeMobile": "モバイルのオプション配置タイプ"
+        },
+        "priceDisplayOption": {
+            "roundingDecimalNotEqualToZero": "丸め小数はゼロに等しくありません",
+            "roundDecimalDigits": "小数点以下の桁数：",
+            "roundingDecimal": "丸め小数：",
+            "exampleText": "例：変換後の価格が$ 9.61の場合、$ 9.{{val}}と表示されます",
+            "priceDisplayOption": " 高度な価格の丸め",
+            "enablePriceRounding": "デフォルトのストア通貨の価格の丸めを有効にします",
+            "roundToDecimal": "10進数への丸め",
+            "removeDecimal": "10進数を削除",
+            "none": "なし"
+        },
+        "activateInstantLoader": {
+            "instantLoader": "インスタントローダーをアクティブにします。",
+            "alert": "注：テーマファイルに小さなスクリプトを追加して、インスタントローダーが正常に機能するようにします。したがって、アンインストールする前にインスタントローダーをオフにしてください。",
+            "activate": "インスタントローダーが正常にアクティブ化されました",
+            "deactivate": "インスタントローダーが正常に非アクティブ化されました",
+            "error": "保存中にエラーが発生しました！"
+        },
+        "advanced": {
+            "title": "高度な",
+            "customCSS": "カスタムCSS",
+            "customTrigger": "カスタムトリガー"
+        },
+        "customPosition": {
+            "title": "高度なカスタム位置配置",
+            "currencyConverterBoxPlacement": "通貨換算ボックスの配置",
+            "cartBannerPlacement": "カートバナーの配置"
+        }
+    },
+    "onBoardingProgress": {
+        "step1": {
+            "title": "お金の形式を設定します。",
+            "caption": "Shopify設定でお金の形式を設定する",
+            "HTMLWithCurrency": "通貨を含むHTML",
+            "HTMLWithoutCurrency": "通貨なしのHTML",
+            "copy": "コピー",
+            "nextCheckSettings": "次に、設定を確認します",
+            "nextIHaveDoneThis": "次に、私はこれをしました",
+            "youHaveAlreadyDoneThis": "イェーイ!! 🎉 すでにこれを行っているので、「次へ」をクリックします",
+            "copied": "コピーされた",
+            "instructionForMoneyFormat": "マネーフォーマットのセットアップ手順",
+            "step1": "ステップ 1: ",
+            "step2": "ステップ 2: ",
+            "step3": "ステップ 3: ",
+            "goToShopify": "Shopifyに移動 ",
+            "settingsGeneral": "設定 -> 全般 🔗",
+            "clickOn": "クリック ",
+            "changeFormatting": "フォーマットを変更する",
+            "inStoreCurrencySection": " ストア通貨セクション",
+            "copyAndPaste": "コピー & ペースト",
+            "theAboveMoneyFormatLikeTheFollowing": " 上記のMoney Formatsは次のようになります。",
+            "youAreDone": "できた 🎉",
+            "spanTagAlertMessage": "お金の形式が適切に設定されていません。以下の手順に従ってください。",
+            "spanTagAlertDescription": "BUCKS：Currency Converterを機能させるには、shopifyの設定で金額形式を構成する必要があります。",
+            "spanTagError": "ShopifyでMoney形式が適切に設定されていません",
+            "iHaveDoneThis": "これをやった"
+        },
+        "step2": {
+            "title": "設定を確認する",
+            "caption": "設定を確認して保存",
+            "checkTheBelowSettingsAndSave": "以下の設定を確認し、保存をクリックしてください！"
+        },
+        "step3": {
+            "title": "アプリを有効にする",
+            "caption": "通貨換算を有効にする",
+            "youAreAlmostDoneEnableAppNow": "ほぼ終わりです！今すぐアプリを有効にする 🚀"
+        },
+        "step4": {
+            "title": "フィードバック",
+            "review": {
+                "title": "私たちにはもっと大きな使命があります",
+                "subHeadingOne": "アプリが無料なのはなぜですか？",
+                "paragraphOne": " 今年末までに10万人の販売者がeコマースを開始できるよう支援することを使命としています。",
+                "subHeadingTwo": "あなたの1はどのように価値がありますか？",
+                "listOne": " 純粋な動機;はい、それは開発者がより多くのコーヒーをコードに変えるよう動機付けます。",
+                "listTwo": "Shopifyアプリストアでより多くの販売者にリーチするのに役立ちます。",
+                "paragraphTwo": "良いレビューを残して、ミッションをサポートしてください。",
+                "paragraphThree": "誤ることは人間です。助けることは神です。",
+                "iSupportButton": "ミッションをサポートします",
+                "iSupportAndClaim": "無料試用をサポートして申し立てます"
+            }
+        },
+        "testApplication": {
+            "congtratulations": "おめでとう!! 🎉",
+            "grabYourInternationalCustomers": "国際的な顧客を獲得しましょう！",
+            "testInYourStore": "ストアでテストする",
+            "allWorksPerfect": "すべてが完璧に機能しますか？",
+            "yesItIsPerfect": "はい、完璧です",
+            "noINeedHelp": "いいえ、助けが必要です",
+            "pleaseGiveYourFeedback": "どう評価しますか？",
+            "skip": " 後でやります",
+            "submit": "参加する",
+            "contactYourCustomerSupportTeam": "カスタマーサポートチームにお問い合わせください",
+            "close": " 閉じる"
+        }
+    },
+    "hardRefreshAlert": {
+        "title": "設定を変更した後、shopifyストアの変更を確認するにはハードリフレッシュを行ってください。",
+        "contentOnWindows": "Windows: Ctrl + F5",
+        "contentOnMacSafari": "On Mac (Safari): CMD + OPTION + R",
+        "contentOnMacChrome": "Mac: CMD + SHIFT + R"
+    }
+}

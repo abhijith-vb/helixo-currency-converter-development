@@ -1,0 +1,117 @@
+.theme-customisation-main {
+	padding: 20px 10px 10px 10px;
+}
+.theme-customisation-theme-selection {
+	border-radius: 10px;
+	border: 1px solid var(--hxo-lightgrey);
+	padding: 15px;
+}
+.theme-customisation-radio {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.theme-customisation-radio-item {
+	border-radius: 10px;
+	border: 1px solid var(--hxo-lightgrey);
+	padding: 10px !important;
+}
+.theme-customisation-set {
+	border-radius: 10px;
+	border: 1px solid var(--hxo-lightgrey);
+	padding: 10px 10px 10px 10px;
+	margin-top: 10px;
+}
+.theme-customisation-single-row {
+	padding-bottom: 10px;
+}
+
+.theme-customisation-preview-switch { 
+    margin:10px;
+    justify-content: center;
+   
+}
+.theme-customisation-iframe-col{
+    padding: 5px;
+    text-align: center;
+}
+/*for smartphone preview*/
+
+
+.smartphone {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    margin: auto;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+  }
+  
+  /* The horizontal line on the top of the device */
+  .smartphone:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 10px;
+  }
+  
+  /* The circle on the bottom of the device */
+  .smartphone:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 50%;
+  }
+  
+  /* The screen (or content) of the device */
+  .smartphone .content {
+    background: white;
+    height: 100%;
+  }
+/* macbokk preview */
+.holder {
+    width: 495px;
+    height: 300px;
+    display: inline-block;
+    background-image: url(./../../images/desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.preview{
+    height: 250px;
+    width: 384px;
+    background-color: rgba(0, 0, 0, 0.01);
+    margin: auto;
+    margin-top: 17px;
+}
+.switchShadowWrapper .ant-switch {
+    box-shadow: 0 0 26px 6px rgba(255, 255, 255, 0.5);
+    margin: 0
+}
+@media (max-width: 900px) {
+	.theme-customisation-theme-selection {
+		width: 270px;
+	}
+	.theme-customisation-preview {
+		width: 600px;
+	}
+	.theme-customisation-radio-item {
+		padding: 10px 10px 10px 10px;
+	}
+	.theme-customisation-set {
+		width: 270px;
+	}
+}

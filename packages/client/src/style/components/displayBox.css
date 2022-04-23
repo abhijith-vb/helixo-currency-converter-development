@@ -1,0 +1,66 @@
+.display-box{
+    margin-top: 10px;
+}
+.display-box-heading{
+    padding-left: 10px;
+    font-size: 15px;
+}
+.display-box-body{
+    padding-top: 10px;
+}
+.display-box-display-content{
+    margin-top: 0px;
+}
+.notification-Switch{
+    text-align: right;
+}
+.display-proTip{
+    color:#5c6ac4 !important;
+    font-style: italic;
+}
+.display-box-radio{
+    margin-left:10px;
+}
+.notification-switch-info{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.notification-editor{
+    margin-top: 5px;
+    
+}
+.display-box-radio{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.display-box-positionSelector{
+       margin-bottom: 20px;
+}
+.notification-box{
+    max-width: 400px;
+}
+@media(max-width:900px){
+    .display-box-display{
+        width:200px;
+       
+    }
+    .display-box-positionSelector{
+       
+        width:50px;
+    }
+    .currencySelector-switch{
+        width:50px;
+    }
+    .notification-Switch{
+        width:50px;
+    }
+    .notification-editor{
+        width:250px;  
+    }
+}
+@media(max-width:400px){
+    .notification-box{
+        width:200px;
+    }
+    
+}

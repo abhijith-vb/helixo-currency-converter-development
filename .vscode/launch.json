@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Node: Nodemon skipfiles",
+            "processId": "${command:PickProcess}",
+            "restart": true,
+            "protocol": "inspector",
+            "skipFiles": [
+                "<node_internals>/**/*.js",
+                "node_modules/**/*.js",
+                /* include a node module to debug using negative patterns */
+                "!node_modules/shopify-api-node/**/*.js",
+                "lib/**/*.js",
+                "async_hooks.js",
+                "inspector_async_hook.js"
+            ],
+        }
+    }

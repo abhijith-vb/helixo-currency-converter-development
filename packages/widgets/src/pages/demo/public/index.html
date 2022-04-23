@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta id="iframe-viewport" name="viewport"
+        content="width=device-width, initial-scale=1.0,height=device-height, minimum-scale=1.0, user-scalable=0">
+    <meta name="referrer" content="origin">
+    <title>Document</title>
+    <script>
+        const defaultConfig = {
+            active: true,
+            isMerchant: true,
+            demoMode: true,
+            userCurrency: 'EUR',
+            money_format: '<span class="money">€{{amount}}</span>',
+            selectedCurrencies: [
+                {
+                    USD: 'US Dollar (USD)'
+                },
+                {
+                    EUR: 'Euro (EUR)'
+                },
+                {
+                    INR: 'Indian Rupee (INR)'
+                },
+                {
+                    THB: 'Taiwan'
+                },
+                {
+                    GBP: 'Russia'
+                },
+                {
+                    JPY: 'Japan'
+                },
+                {
+                    SAR: 'Suadi riyal'
+                },
+                {
+                    AUD: 'Australia'
+                }
+            ],
+            autoSwitchCurrencyLocationBased: true,
+            moneyWithCurrencyFormat: true,
+            displayPositionType: 'customPosition',
+            displayPosition: 'hxoPosition',
+            customPosition: '.hxoPosition',
+            borderStyle: 'boxShadow',
+            showInDesktop: false,
+            showInMobileDevice: false,
+            showOriginalPriceOnMouseHover: true,
+            cartNotificationStatus: true,
+            cartNotificationMessage: 'This store process all orders in USD.',
+            cartNotificationBackgroundColor: '#cce5ff',
+            cartNotificationTextColor: '#004085',
+            roundPriceStatus: true,
+            roundingDecimal: 0.99,
+            priceRoundingType: 'roundToDecimal',
+            defaultCurrencyRounding: false,
+            integreteWithOtherApps: true,
+            themeType: 'modernLayered',
+            hideCurrencySelector: false,
+            backgroundColor: '#fff',
+            textColor: '#333',
+            hoverColor: '#ccc',
+            darkMode: true,
+            target: 'body',
+            instantLoader: true,
+            expertSettings: {
+                js: '',
+                css: ''
+            }
+        };
+        window.bucksCC = window.bucksCC || {};
+        window.bucksCC.config = window.bucksCC.config || defaultConfig;
+        window.bucksCC.config.multiCurrencies = window.bucksCC.config.multiCurrencies || [];
+        window.bucksCC.config.multiCurrencyEnabled = false;
+    </script>
+    <script src="./demo.bundle.js"></script>
+    <script src="/widgets/buckscc/sdk.min.js"></script>
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <div class="hxoPosition"></div>
+
+    <!-- <div class="product">
+        <span class="money">
+            €19.95
+        </span>
+    </div> -->
+</body>
+
+</html>

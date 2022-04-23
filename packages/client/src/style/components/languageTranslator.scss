@@ -1,0 +1,18 @@
+.language-translator-body{
+    margin-top: 25px;
+    .ant-select-selection-item {
+        align-items: center;
+        display: flex;
+    }
+}
+.language-translator-flag-img{
+    width:20px;
+    height: 20px;
+    float: left;
+    margin-right: 20px;
+   
+}
+.language-translator-option:checked{
+    margin-top: 10px;
+}
+

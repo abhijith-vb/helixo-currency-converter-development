@@ -1,0 +1,179 @@
+{
+    "settings": {
+        "header": {
+            "title": "Réglages",
+            "appStatus": "Statut de l'application",
+            "save": "sauvegarder"
+        },
+        "currencySelector": {
+            "general": "Générale",
+            "selectCurrencies": "Sélectionnez les devises:",
+            "selectAll": "Tout sélectionner",
+            "deselectAll": "Tout déselectionner",
+            "autoSwitchCurrencyBasedOnLocation": "Changer de devise en fonction de l'emplacement:",
+            "showCurrencySymbol": "Afficher le symbole monétaire:",
+            "pleaseSelectAtleastOneCurrency": "Veuillez sélectionner au moins une devise",
+            "convertCurrencyToNonListed": "Basculement automatique vers la devise préférée uniquement",
+            "convertCurrencyToNonListedDisc": "Si la devise locale du client n&#39;est pas ajoutée à la liste ci-dessus, l&#39;application ne sera pas convertie dans sa devise locale. Activez cette option pour convertir pour tous les clients",
+            "showCurrencySymbolEg1": "Par exemple: sans symbole monétaire - 9,99 $",
+            "showCurrencySymbolEg2": "Par exemple: avec symbole monétaire - 9,99 $ USD"
+        },
+        "theme": {
+            "theme": "Thème",
+            "currencyBoxTheme": "Thème de boîte de devise",
+            "default": "Défaut",
+            "modernLayers": "Couches modernes",
+            "themeCustomisation": "Personnalisation du thème",
+            "backgroundColor": "Couleur de l'arrière plan:",
+            "textColor": "Couleur du texte:",
+            "hoverColor": "Passer la souris sur la couleur:",
+            "borderStyle": "Style de bordure:",
+            "boxShadow": "Boîte ombre",
+            "borderLine": "ligne frontière",
+            "noBorder": "Pas de frontière",
+            "darkMode": "Dark Mode",
+            "flagStyle": "Flag Style",
+            "traditionalFlags": "Drapeaux traditionnels",
+            "modernFlags": "Drapeaux modernes",
+            "flagTheme": "Thème du drapeau",
+            "rounded": "Arrondi",
+            "circle": "Cercle",
+            "flat": "Plat",
+            "flagDisplayOption": "Options d&#39;affichage des drapeaux",
+            "showFlagAndCurrency": "Afficher le drapeau et la devise",
+            "showFlagOnly": "Afficher uniquement le drapeau",
+            "showCurrencyOnly": "Afficher uniquement la devise",
+            "showCurrencyCodesOnly":"Show currency code only in currency box dropdown list"
+        },
+        "display": {
+            "display": "Afficher",
+            "displayDesktop": "Position du bureau",
+            "displayMobile": "Position mobile",
+            "displayPositionType": "Style de position",
+            "floating": "Flottante",
+            "fixedPosition": "Position personnalisée",
+            "customPositionPlaceholder": "Identifiant de position personnalisé pour afficher la zone monétaire",
+            "header": "Entête",
+            "displayPosition": "Position d'affichage:",
+            "customCurrencyBoxPosition": "Position de la boîte à devises personnalisée:",
+            "topRight": "En haut à droite",
+            "topLeft": "En haut à gauche",
+            "bottomRight": "En bas à droite",
+            "bottomLeft": "En bas à gauche",
+            "showInDesktop": "Afficher sur le bureau:",
+            "showInMobileDevice": "Afficher dans l'appareil mobile:",
+            "showOriginalPriceOnMouseHover": "Afficher le prix d'origine lorsque vous passez la souris sur:",
+            "notification": "Notification",
+            "displayCartNotification": "Afficher la notification du panier:",
+            "showCheckoutCurrencyNotificationInCart": "Afficher la notification de devise de paiement dans le panier",
+            "sub": "Boîte de sélection de devises",
+            "proTip": "Conseil de pro: désactivez le bureau et le mobile ci-dessus pour masquer la boîte de conversion de devises",
+            "customDropdownCurrencyListPlacement": "Emplacement de la liste déroulante personnalisée des devises",
+            "customOptionPlacement": "Placement des options personnalisées",
+            "optionPlacementType": "Type de placement d'option",
+            "customOptionPlacementMobile": "Emplacement des options personnalisées pour mobile",
+            "optionPlacementTypeMobile": "Type d'emplacement d'option pour mobile"
+        },
+        "priceDisplayOption": {
+            "roundingDecimalNotEqualToZero": "L'arrondi décimal n'est pas égal à zéro",
+            "roundDecimalDigits": "Chiffres décimaux ronds:",
+            "roundingDecimal": "Arrondi décimal:",
+            "exampleText": "Par exemple: si le prix converti est de 9.61 $, il s'affichera comme 9.{{val}} $",
+            "priceDisplayOption": "Arrondi avancé des prix",
+            "enablePriceRounding": "Activer l&#39;arrondi des prix pour la devise du magasin par défaut",
+            "roundToDecimal": "Arrondir à décimal",
+            "removeDecimal": "Supprimer décimal",
+            "none": "Aucun"
+        },
+        "activateInstantLoader": {
+            "instantLoader": "Activez Instant Loader:",
+            "alert": "REMARQUE: nous ajouterons un petit script au fichier de thème pour permettre au chargeur instantané de fonctionner correctement. Alors, ÉTEIGNEZ Instant Loader avant de désinstaller.",
+            "activate": "Instant Loader activé avec succès",
+            "deactivate": "Instant Loader désactivé avec succès",
+            "error": "Erreur lors de l'enregistrement!"
+        },
+        "advanced": {
+            "title": " Avancée",
+            "customCSS": "CSS personnalisé",
+            "customTrigger": "Déclencheur Personnalisé"
+        },
+        "customPosition": {
+            "title": "Placement de position personnalisé avancé",
+            "currencyConverterBoxPlacement": "Placement de la boîte de conversion de devises",
+            "cartBannerPlacement": "Cart Banner Placement"
+        }
+    },
+    "onBoardingProgress": {
+        "step1": {
+            "title": "Configurez le format de l'argent.",
+            "caption": "Configurer le format monétaire dans les paramètres Shopify",
+            "HTMLWithCurrency": "HTML avec devise",
+            "HTMLWithoutCurrency": "HTML sans devise",
+            "copy": "Copie",
+            "nextCheckSettings": "Ensuite, vérifiez les paramètres",
+            "nextIHaveDoneThis": "Ensuite, je l'ai fait",
+            "youHaveAlreadyDoneThis": "Ouais!! 🎉 Vous l'avez déjà fait, cliquez sur Suivant",
+            "copied": "copié",
+            "instructionForMoneyFormat": "Instructions pour la configuration du format monétaire",
+            "step1": "Étape 1: ",
+            "step2": "Étape 2: ",
+            "step3": "Étape 3: ",
+            "goToShopify": "Accédez à Shopify ",
+            "settingsGeneral": "Réglages -> Générale 🔗",
+            "clickOn": "Cliquer sur ",
+            "changeFormatting": "Modifier la mise en forme",
+            "inStoreCurrencySection": " dans la section Devise du magasin",
+            "copyAndPaste": "Copie & Pâte",
+            "theAboveMoneyFormatLikeTheFollowing": " les formats d'argent ci-dessus comme le suivant.",
+            "youAreDone": "Vous avez terminé 🎉",
+            "spanTagAlertMessage": "Vous n'avez pas configuré correctement le format monétaire, suivez les instructions ci-dessous.",
+            "spanTagAlertDescription": "Vous devez configurer le format monétaire dans les paramètres Shopify pour que BUCKS: Currency Converter fonctionne.",
+            "spanTagError": "Le format monétaire n'est pas correctement configuré dans shopify",
+            "iHaveDoneThis": "Je l'ai fait"
+        },
+        "step2": {
+            "title": "Vérifier les paramètres",
+            "caption": "Vérifier les paramètres et enregistrer",
+            "checkTheBelowSettingsAndSave": "Vérifiez les paramètres ci-dessous et appuyez sur Enregistrer!"
+        },
+        "step3": {
+            "title": "Activer l'application",
+            "caption": "Activer le convertisseur de devises",
+            "youAreAlmostDoneEnableAppNow": "Vous avez presque fini! Activer l'application maintenant 🚀"
+        },
+        "step4": {
+            "title": "Retour d&#39;information",
+            "review": {
+                "title": "Nous avons une mission plus grande",
+                "subHeadingOne": "Pourquoi l&#39;application est-elle GRATUITE?",
+                "paragraphOne": "Nous avons pour mission d&#39;aider 100 000 marchands à se lancer dans le commerce électronique d&#39;ici la fin de cette année.",
+                "subHeadingTwo": "En quoi votre 1 avis est-il si précieux?",
+                "listOne": "Motivation pure; Oui, cela motive nos développeurs à transformer plus de cafés en codes.",
+                "listTwo": "Il permet de toucher plus de marchands dans la boutique d&#39;applications Shopify.",
+                "paragraphTwo": "Soutenez notre mission en laissant une bonne critique.",
+                "paragraphThree": "L&#39;erreur est humaine; aider est divin.",
+                "iSupportButton": "Je soutiens la mission",
+                "iSupportAndClaim": "Je soutiens et revendique un essai gratuit"
+            }
+        },
+        "testApplication": {
+            "congtratulations": "Toutes nos félicitations!! 🎉",
+            "grabYourInternationalCustomers": "Saisissez vos clients internationaux!",
+            "testInYourStore": "Testez dans votre magasin",
+            "allWorksPerfect": "Tout fonctionne parfaitement?",
+            "yesItIsPerfect": "Oui c'est parfait",
+            "noINeedHelp": "Non, j'ai besoin d'aide",
+            "pleaseGiveYourFeedback": "Comment nous évaluerez-vous?",
+            "skip": "je le ferai plus tard",
+            "submit": "Soumettre",
+            "contactYourCustomerSupportTeam": "Contactez notre équipe de support client",
+            "close": "Fermer"
+        }
+    },
+    "hardRefreshAlert": {
+        "title": "Veuillez effectuer un rafraîchissement brutal pour voir les modifications dans la boutique Shopify après avoir modifié la configuration.",
+        "contentOnWindows": "On Windows: Ctrl + F5",
+        "contentOnMacSafari": "On Mac (Safari): CMD + OPTION + R",
+        "contentOnMacChrome": "On Mac (Chrome): CMD + SHIFT + R"
+    }
+}

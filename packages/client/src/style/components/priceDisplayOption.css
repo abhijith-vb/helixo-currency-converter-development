@@ -1,0 +1,28 @@
+.round-decimal-text{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.round-decimal-switch{
+    padding-top: 10px;
+    width:200px;
+    text-align: right;
+}
+.round-decimal-input{
+    padding-top: 10px;
+    width:200px;
+}
+.round-decimal-info{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+@media(max-width:900px){
+    .round-decimal-text{
+        width:150px;
+    }
+    .round-decimal-switch{
+        width:100px;
+    }
+    .round-decimal-input{
+        width:100px;
+    }
+}

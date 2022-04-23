@@ -1,0 +1,70 @@
+@import "../scss/mixins";
+$shopify-bg-color: #f4f6f8;
+html {
+	// base of the polaris rem sizes
+	font-size: 62.5%;
+	text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+}
+body {
+	font-weight: 400;
+	background-color: $shopify-bg-color;
+}
+
+	.hxoPolaris-Card {
+		overflow: hidden;
+		padding: 2rem;
+		border-radius: 3px;
+		background-color: #fff;
+		box-shadow: 0 0 0 1px rgba(63, 63, 68, 0.05),
+			0 1px 3px 0 rgba(63, 63, 68, 0.15);
+		.display-box-heading {
+			display: block;
+			span {
+				font-weight: 600;
+				color: #212b36;
+				font-size: 1.6rem;
+			}
+		}
+	}
+	.hxoPolaris-Card + .hxoPolaris-Card {
+		margin-top: 2rem;
+	}
+	.ant-layout-content {
+		margin: 0 auto;
+		max-width: 1000px;
+		width: 100%;
+		// background: #fff;
+		@include min-md {
+			padding: 2rem 0;
+		}
+    }
+    // Button styles
+	.ant-btn {
+        &:hove {
+            background: linear-gradient(180deg,#f9fafb,#f4f6f8);
+            border-color: #c4cdd5;
+        }
+    }
+	.ant-btn-primary {
+		background: linear-gradient(180deg, #6371c7, #5563c1);
+		border-color: #3f4eae;
+		padding: 0.7rem 1.6rem;
+		box-shadow: inset 0 1px 0 0 #6774c8, 0 1px 0 0 rgba(22, 29, 37, 0.05),
+			0 0 0 0 transparent;
+		color: #fff;
+        line-height: 1;
+        &:hover {
+        background: linear-gradient(180deg,#5c6ac4,#4959bd);
+        border-color: #3f4eae;
+        color: #fff;
+    }
+    }
+
+/**
+Select box content 
+Selectbox is render outside of body so it's not under polarisTheme class
+*/
+.ant-select-item {
+    padding: 10px 12px;
+}

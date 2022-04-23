@@ -1,0 +1,179 @@
+{
+    "settings": {
+        "header": {
+            "title": "inställningar",
+            "appStatus": "Appstatus",
+            "save": "Spara"
+        },
+        "currencySelector": {
+            "general": "Allmän",
+            "selectCurrencies": "Välj valutor:",
+            "selectAll": "Välj alla",
+            "deselectAll": "Avmarkera alla",
+            "autoSwitchCurrencyBasedOnLocation": "Auto switch valuta baserad på plats:",
+            "showCurrencySymbol": "Visa valutasymbol:",
+            "pleaseSelectAtleastOneCurrency": "Välj minst en valuta",
+            "convertCurrencyToNonListed": "Byt automatiskt till önskad valuta",
+            "convertCurrencyToNonListedDisc": "Om kundens lokala valuta inte läggs till ovan listan kommer appen inte att konvertera till sin lokala valuta. Slå på detta för att konvertera för alla kunder",
+            "showCurrencySymbolEg1": "Till exempel: Utan valutasymbol - $ 9,99",
+            "showCurrencySymbolEg2": "Exempel: Med valutasymbol - $ 9,99 USD"
+        },
+        "theme": {
+            "theme": "Tema",
+            "currencyBoxTheme": "Valuta Box Theme",
+            "default": "Standard",
+            "modernLayers": "Moderna lager",
+            "themeCustomisation": "Teman anpassning",
+            "backgroundColor": "Bakgrundsfärg:",
+            "textColor": "Text färg:",
+            "hoverColor": "Mus över färg:",
+            "borderStyle": "Kantstil:",
+            "boxShadow": "ruta skugga",
+            "borderLine": "Gränsen",
+            "noBorder": "Ingen gräns",
+            "darkMode": "Mörkt läge",
+            "flagStyle": "Flagga stil",
+            "traditionalFlags": "Traditionella flaggor",
+            "modernFlags": "Moderna flaggor",
+            "flagTheme": "Flaggtema",
+            "rounded": "Avrundad",
+            "circle": "Cirkel",
+            "flat": "Platt",
+            "flagDisplayOption": "Flaggvisningsalternativ",
+            "showFlagAndCurrency": "Visa flagga och valuta",
+            "showFlagOnly": "Visa endast flagga",
+            "showCurrencyOnly": "Visa endast valuta",
+            "showCurrencyCodesOnly":"Visa endast valutakod i rullgardinslistan"
+        },
+        "display": {
+            "display": "Visa",
+            "displayDesktop": "Skrivbordsposition",
+            "displayMobile": "Mobil position",
+            "displayPositionType": "Positionstil",
+            "floating": "Flytande",
+            "fixedPosition": "Anpassad position",
+            "customPositionPlaceholder": "Anpassad positions-ID för att visa valutaruta",
+            "header": "Rubrik",
+            "displayPosition": "Visa position:",
+            "customCurrencyBoxPosition": "Anpassad valutaruta position:",
+            "topRight": "Överst till höger",
+            "topLeft": "Övre vänstra",
+            "bottomRight": "Nere till höger",
+            "bottomLeft": "Nedre vänstra",
+            "showInDesktop": "Visa på skrivbordet:",
+            "showInMobileDevice": "Visa i mobil enhet:",
+            "showOriginalPriceOnMouseHover": "Visa originalpriset med musen över:",
+            "notification": "Underrättelse",
+            "displayCartNotification": "Visa varukorgmeddelande:",
+            "showCheckoutCurrencyNotificationInCart": "Visa kassavaluta meddelanden i kundvagnen",
+            "sub": "Valutavältet",
+            "proTip": "Pro-tips: Stäng av både stationär och mobil ovan för att dölja valutakonverterarboxen",
+            "customDropdownCurrencyListPlacement": "Anpassad placering i rullgardinsvalutalistan",
+            "customOptionPlacement": "Anpassad alternativplacering",
+            "optionPlacementType": "Alternativ Placeringstyp",
+            "customOptionPlacementMobile": "Anpassad alternativplacering för mobil",
+            "optionPlacementTypeMobile": "Alternativ Placeringstyp för mobil"
+        },
+        "priceDisplayOption": {
+            "roundingDecimalNotEqualToZero": "Avrundning decimaler är inte lika med noll",
+            "roundDecimalDigits": "Runda decimaler:",
+            "roundingDecimal": "Rounding Decimal:",
+            "exampleText": "Exempel: Om det konverterade priset är $ 9,61 visas det som $ 9.{{val}}",
+            "priceDisplayOption": "Avancerad prisavrundning",
+            "enablePriceRounding": "Aktivera prisavrundning för standardbutikens valuta",
+            "roundToDecimal": "Runda till decimal",
+            "removeDecimal": "Ta bort decimal",
+            "none": "Ingen"
+        },
+        "activateInstantLoader": {
+            "instantLoader": "Aktivera Instant Loader:",
+            "alert": "OBS: Vi lägger till ett litet skript till temafilen för att aktivera omedelbar loader att fungera korrekt. Så AVSLUTA direktlastaren innan du avinstallerar.",
+            "activate": "Instant Loader har aktiverats",
+            "deactivate": "Instant Loader inaktiverades framgångsrikt",
+            "error": "Fel vid sparande!"
+        },
+        "advanced": {
+            "title": "Avancerad",
+            "customCSS": "Anpassad CSS",
+            "customTrigger": "Anpassad Utlösare"
+        },
+        "customPosition": {
+            "title": "Avancerad anpassningspositionering",
+            "currencyConverterBoxPlacement": "Placering av valutakonverterare",
+            "cartBannerPlacement": "Kundvagnsplacering"
+        }
+    },
+    "onBoardingProgress": {
+        "step1": {
+            "title": "Ställ in pengarformat.",
+            "caption": "Ställ in pengarformat i Shopify-inställningar",
+            "HTMLWithCurrency": "HTML med valuta",
+            "HTMLWithoutCurrency": "HTML utan valuta",
+            "copy": "Kopia",
+            "nextCheckSettings": "Nästa, Kontrollera inställningar",
+            "nextIHaveDoneThis": "Därefter har jag gjort det",
+            "youHaveAlreadyDoneThis": "Yey!! 🎉 Du har redan gjort det, klicka på Nästa",
+            "copied": "kopieras",
+            "instructionForMoneyFormat": "Instruktioner för inställning av pengarformat",
+            "step1": "Steg 1: ",
+            "step2": "Steg 2: ",
+            "step3": "Steg 3: ",
+            "goToShopify": "Gå till Shopify ",
+            "settingsGeneral": "inställningar -> Allmän 🔗",
+            "clickOn": "Klicka på ",
+            "changeFormatting": "Ändra formatering",
+            "inStoreCurrencySection": " i avsnittet Butiksvaluta",
+            "copyAndPaste": "Kopia & Klistra",
+            "theAboveMoneyFormatLikeTheFollowing": " ovanstående pengarformat som följande.",
+            "youAreDone": "Du är klar 🎉",
+            "spanTagAlertMessage": "Du har inte konfigurerat pengarformatet ordentligt. Följ instruktionerna nedan.",
+            "spanTagAlertDescription": "Du måste konfigurera pengarformat i shopify-inställningar för BUCKS: Valutakonverterare för att fungera.",
+            "spanTagError": "Pengarformatet är inte korrekt konfigurerat i shopify",
+            "iHaveDoneThis": "Jag har gjort det här"
+        },
+        "step2": {
+            "title": "Kontrollera inställningarna",
+            "caption": "Kontrollera inställningar och Spara",
+            "checkTheBelowSettingsAndSave": "Kontrollera inställningarna nedan och slå Spara!"
+        },
+        "step3": {
+            "title": "Aktivera app",
+            "caption": "Aktivera valutakonverterare",
+            "youAreAlmostDoneEnableAppNow": "Du är nästan klar! Aktivera app nu 🚀"
+        },
+        "step4": {
+            "title": "Respons",
+            "review": {
+                "title": "Vi har ett större uppdrag",
+                "subHeadingOne": "Varför är appen GRATIS?",
+                "paragraphOne": "Vi är i ett uppdrag att hjälpa 100K Merchants att komma igång med e-handel i slutet av detta år.",
+                "subHeadingTwo": "Hur är din 1 recension så mycket värdefull?",
+                "listOne": "Pure Motivation; Ja, det motiverar våra utvecklare att förvandla fler kaffe till koder.",
+                "listTwo": "Det hjälper dig att nå fler handlare i Shopify-appbutiken.",
+                "paragraphTwo": "Stöd vårt uppdrag genom att lämna en bra recension.",
+                "paragraphThree": "Att fela är mänskligt; att hjälpa är gudomligt.",
+                "iSupportButton": "Jag stöder uppdraget",
+                "iSupportAndClaim": "Jag stöder och gör anspråk på gratis rättegång"
+            }
+        },
+        "testApplication": {
+            "congtratulations": "Grattis !! 🎉",
+            "grabYourInternationalCustomers": "Ta tag i dina internationella kunder!",
+            "testInYourStore": "Testa i din butik",
+            "allWorksPerfect": "Alla fungerar perfekt?",
+            "yesItIsPerfect": "Ja, det är perfekt",
+            "noINeedHelp": "Nej, jag behöver hjälp",
+            "pleaseGiveYourFeedback": "Hur kommer du att betygsätta oss?",
+            "skip": "jag gör det senare",
+            "submit": "Skicka in",
+            "contactYourCustomerSupportTeam": "Kontakta vårt kundtjänstteam",
+            "close": "Stänga"
+        }
+    },
+    "hardRefreshAlert": {
+        "title": "Vänligen uppdatera hårt för att se ändringarna i shopify-butiken efter att du har ändrat konfigurationen.",
+        "contentOnWindows": "På Windows: Ctrl + F5",
+        "contentOnMacSafari": "On Mac (Safari): CMD + OPTION + R",
+        "contentOnMacChrome": "På Mac: CMD + SHIFT + R"
+    }
+}

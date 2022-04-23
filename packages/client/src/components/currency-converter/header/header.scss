@@ -1,0 +1,47 @@
+.buckscc-status-header {
+    display: flex !important;
+    align-items: center;
+    > * {
+        margin: 0 !important;
+    }
+    > * + * {
+        margin-left: 10px !important;
+    }
+}
+.ufe-ad-desc {
+    padding: 1em 0;
+    display: flex;
+    font-size: 15px;
+    > * + * {
+    margin-left: 11px;
+    }
+}
+.list-text{
+    padding: 0.5em 0;
+    font-size: 15px;
+    > * + * {
+        margin-left: 11px;
+    }
+}
+
+.modal-contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    padding:0.5em;
+}
+.font-bold{
+    font-weight: bold;
+}
+.bg-grey{
+    background-color: gray;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-0{
+    margin-top: 0px !important;
+}

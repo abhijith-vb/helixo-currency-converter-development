@@ -1,0 +1,39 @@
+.alpha-ad-modal {
+    border-radius: 17px;
+    overflow: hidden;
+    padding-bottom: 0 !important;
+    top: 10px !important;
+    .ant-modal-content {
+        background-image: url(../../../images/ufe-ad.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        .ant-modal-close-x {
+            width: 41px;
+            height: 41px;
+            line-height: 41px;
+            color: #fff;
+            border-radius: 50px;
+            background: #ffffff4a;
+            margin: 14px 11px;
+        }
+        a {
+            height: 675px;
+            width: 100%;
+            display: block;
+        }
+    }
+}
+.ad-counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter-item{
+    padding: 10px;
+    span{
+        font-size: 20px;
+    }
+    span:nth-child(1){
+        font-weight: bold;
+    }
+}

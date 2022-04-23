@@ -1,0 +1,180 @@
+{
+    "settings": {
+        "header": {
+            "title": "Settings",
+            "appStatus": "App Status",
+            "save": "Save"
+        },
+        "currencySelector": {
+            "general": "General",
+            "selectCurrencies": "Select currencies",
+            "selectAll": "Select All",
+            "deselectAll": "Deselect All",
+            "autoSwitchCurrencyBasedOnLocation": "Auto Switch currency based on Location",
+            "showCurrencySymbol": "Show currency symbol",
+            "pleaseSelectAtleastOneCurrency": "Please select atleast one currency",
+            "convertCurrencyToNonListed": "Auto switch currency to above listed currency only",
+            "convertCurrencyToNonListedDisc": "If this option turn on, then app don't automatically switch to customer currency if it's not listed in the above list. <br> <b>NOTE: </b> This option only work if Auto location is turn on.",
+            "showCurrencySymbolEg1": "Eg: Without Currency Symbol - $9.99",
+            "showCurrencySymbolEg2": "Eg: With Currency Symbol - $9.99 USD"
+        },
+        "theme": {
+            "theme": "Theme",
+            "currencyBoxTheme": "Currency Box Theme",
+            "default": "Default",
+            "modernLayers": "Modern Layers",
+            "themeCustomisation": "Theme Customisation",
+            "backgroundColor": "Background Color",
+            "textColor": "Text Color",
+            "hoverColor": "Mouse Over Color",
+            "borderStyle": "Border Style",
+            "boxShadow": "Box Shadow",
+            "borderLine": "Border Line",
+            "noBorder": "No Border",
+            "darkMode": "Dark Mode",
+            "flagStyle": "Flag Style",
+            "traditionalFlags": "Traditional Flags",
+            "modernFlags": "Modern Flags",
+            "flagTheme": "Flag Theme",
+            "rounded": "Rounded",
+            "circle": "Circle",
+            "flat": "Flat",
+            "flagDisplayOption": "Flag Display Option",
+            "showFlagAndCurrency": "Show flag and currency",
+            "showFlagOnly": "Show flag only",
+            "showCurrencyOnly": "Show currency only",
+            "showCurrencyCodesOnly":"Show currency code only in currency box dropdown list"
+        },
+        "display": {
+            "display": "Display",
+            "displayDesktop": "Desktop Position",
+            "displayMobile": "Mobile Position",
+            "displayPositionType": "Position Style",
+            "floating": "Floating",
+            "header": "Header",
+            "fixedPosition": "Custom position",
+            "customPositionPlaceholder": "Custom position id to display currency box",
+            "displayPosition": "Display position",
+            "customCurrencyBoxPosition": "Custom currency box position",
+            "topRight": "Top Right",
+            "topLeft": "Top Left",
+            "bottomRight": "Bottom Right",
+            "bottomLeft": "Bottom Left",
+            "showInDesktop": "Show in desktop",
+            "showInMobileDevice": "Show in Mobile device",
+            "showOriginalPriceOnMouseHover": "Show original price on mouse over",
+            "notification": "Notification",
+            "displayCartNotification": "Display cart notification",
+            "showCheckoutCurrencyNotificationInCart": "Show checkout currency notification in cart",
+            "sub": "Currency Selector Box",
+            "proTip": "Pro Tip: Turn off both desktop and mobile above to hide currency converter box",
+            "customDropdownCurrencyListPlacement": "Custom dropdown currency list placement",
+            "customOptionPlacement": "Custom Option Placement",
+            "optionPlacementType": "Option Placement Type",
+            "customOptionPlacementMobile": "Custom Option Placement for Mobile",
+            "optionPlacementTypeMobile": "Option Placement Type for Mobile"
+        },
+        "priceDisplayOption": {
+            "roundingDecimalNotEqualToZero": "Rounding decimal does not equal to zero",
+            "roundDecimalDigits": "Round decimal digits",
+            "roundingDecimal": "Rounding Decimal",
+            "exampleText": "Eg: If the converted price is $9.61 it will displayed as $9.{{val}}",
+            "priceDisplayOption": "Advanced Price Rounding",
+            "enablePriceRounding": "Enable price rounding for default store currency",
+            "roundToDecimal": "Round to Decimal",
+            "removeDecimal": "Remove Decimal",
+            "none": "None"
+        },
+        "activateInstantLoader": {
+            "instantLoader": "Activate Instant Loader",
+            "alert": "NOTE: We will add a small script to the theme file to enable the instant loader to work properly. So, TURN OFF instant Loader before uninstalling.",
+            "activate": "Instant Loader activated successfully",
+            "deactivate": "Instant Loader deactivated successfully",
+            "error": "Error on saving!"
+        },
+        "advanced": {
+            "title": "Advanced",
+            "customCSS": "Custom CSS",
+            "customTrigger": "Custom Trigger"
+        },
+        "customPosition": {
+            "title": "Advanced Custom position placement",
+            "currencyConverterBoxPlacement": "Currency Converter Box Placement",
+            "cartBannerPlacement": "Cart Banner Placement"
+        }
+    },
+    "onBoardingProgress": {
+        "step1": {
+            "title": "Set up money format.",
+            "caption": "Set up money format in Shopify Settings",
+            "HTMLWithCurrency": "HTML with currency",
+            "HTMLWithoutCurrency": "HTML without currency",
+            "copy": "Copy",
+            "nextCheckSettings": "Next, Check settings",
+            "nextIHaveDoneThis": "Next, I have done this",
+            "youHaveAlreadyDoneThis": "Yey!! 🎉 You have already done this, click Next",
+            "copied": "copied",
+            "instructionForMoneyFormat": "Instructions For Money Format Setup",
+            "step1": "Step 1: ",
+            "step2": "Step 2: ",
+            "step3": "Step 3: ",
+            "goToShopify": "Go to Shopify ",
+            "settingsGeneral": "Settings -> General 🔗",
+            "clickOn": "Click on ",
+            "changeFormatting": "Change Formatting",
+            "inStoreCurrencySection": " in Store currency section",
+            "copyAndPaste": "Copy & Paste",
+            "theAboveMoneyFormatLikeTheFollowing": " the above Money Formats like the following.",
+            "youAreDone": "You're done 🎉",
+            "spanTagAlertMessage": "You haven't configured the money format properly, Follow the instructions below.",
+            "spanTagAlertDescription": "You must configure money format in shopify settings for BUCKS: Currency Converter to work",
+            "spanTagError": "Money format is not properly configured in shopify",
+            "iHaveDoneThis": "I have done this"
+        },
+        "step2": {
+            "title": "Check settings",
+            "caption": "Check settings and Save",
+            "checkTheBelowSettingsAndSave": "Check the below Settings and Hit Save!"
+        },
+        "step3": {
+            "title": "Enable App",
+            "caption": "Enable Currency Converter",
+            "youAreAlmostDoneEnableAppNow": "You're almost done! Enable App now 🚀"
+        },
+        "step4": {
+            "title": "Feedback",
+            "review": {
+                "title": "We've got a bigger mission!",
+                "subHeadingOne": "Why the app is FREE?",
+                "paragraphOne": "We are in a mission to help 100K Merchants for getting started with e-commerce by the end of this year.",
+                "subHeadingTwo": "How does your 1 review so much valuable?",
+                "listOne": "Pure Motivation; Yes, It motivates our developers to turn more coffees into codes.",
+                "listTwo": "It helps to reach more merchants in the Shopify app store.",
+                "paragraphTwo": "Support our mission by leaving a good review.",
+                "paragraphThree": "To err is human; to help is divine. ",
+                "iSupportButton": "I support the mission",
+                "iSupportAndClaim": "I support & claim FREE 5 months trial",
+                "skipSupportMission": "Skip, I will pay for app!"
+            }
+        },
+        "testApplication": {
+            "congtratulations": "Congratulations!! 🎉",
+            "grabYourInternationalCustomers": "Grab your international customers!",
+            "testInYourStore": "Test in your Store",
+            "allWorksPerfect": "All works perfect?",
+            "yesItIsPerfect": "Yes, it's perfect",
+            "noINeedHelp": "No, I need help",
+            "pleaseGiveYourFeedback": "How will you rate us?",
+            "skip": "I will do it later",
+            "submit": "Submit",
+            "contactYourCustomerSupportTeam": "Contact our Customer Support Team",
+            "close": "Close"
+        }
+    },
+    "hardRefreshAlert": {
+        "title": "Please do hard refresh to see the changes in shopify store after changing the config.",
+        "contentOnWindows": "On Windows: Ctrl + F5",
+        "contentOnMacSafari": "On Mac (Safari): CMD + OPTION + R",
+        "contentOnMacChrome": "On Mac (Chrome): CMD + SHIFT + R"
+    }
+}

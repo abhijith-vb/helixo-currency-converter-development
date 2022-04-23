@@ -1,0 +1,139 @@
+{
+	"hosting": [
+		{
+			"target": "buckscc-prod",
+			"public": "dist",
+			"headers": [
+				{
+					"source": "/public/**",
+					"headers": [
+                        {
+                            "key" : "Access-Control-Allow-Origin",
+                            "value" : "*"
+                        },
+						{
+							"key": "Cache-Control",
+							"value": "max-age=31536000"
+						}
+					]
+				},
+				{
+					"source": "/scripts/ufe_styles.css",
+					"headers": [
+						{
+							"key": "Cache-Control",
+							"value": "max-age=300"
+						}
+					]
+				},
+				{
+					"source": "/scripts/sdk.min.js",
+					"headers": [
+                        {
+                            "key" : "Access-Control-Allow-Origin",
+                            "value" : "*"
+                        },
+						{
+							"key": "Cache-Control",
+							"value": "max-age=300"
+						}
+					]
+				},
+				{
+					"source": "**/*.@(js|css)",
+					"headers": [
+						{
+							"key": "Cache-Control",
+							"value": "max-age=300"
+						}
+					]
+				}
+			],
+			"ignore": [
+				"firebase.json",
+				"**/.*",
+				"**/node_modules/**",
+                "**/*.ufe_bundle.js",
+                "*.js.map"
+			],
+			"rewrites": [
+				{
+					"source": "/api/**",
+					"run": {
+						"serviceId": "buckscc-prod",
+						"region": "us-central1"
+					}
+				},
+				{
+					"source": "**",
+					"destination": "/index.html"
+				}
+			]
+		},
+		{
+			"target": "ufe-app-stage",
+			"public": "dist",
+			"headers": [
+                {
+					"source": "/public/**",
+					"headers": [
+                        {
+                            "key" : "Access-Control-Allow-Origin",
+                            "value" : "*"
+                        },
+						{
+							"key": "Cache-Control",
+							"value": "max-age=31536000"
+						}
+					]
+				},
+				{
+					"source": "/scripts/ufe.min.css",
+					"headers": [
+                        {
+                            "key" : "Access-Control-Allow-Origin",
+                            "value" : "*"
+                        },
+						{
+							"key": "Cache-Control",
+							"value": "max-age=900"
+						}
+					]
+				},
+				{
+					"source": "/scripts/sdk.min.js",
+					"headers": [
+                        {
+                            "key" : "Access-Control-Allow-Origin",
+                            "value" : "*"
+                        },
+						{
+							"key": "Cache-Control",
+							"value": "max-age=900"
+						}
+					]
+				}
+			],
+			"ignore": [
+				"firebase.json",
+				"**/.*",
+				"**/node_modules/**",
+                "**/*.ufe_bundle.js",
+                "*.js.map"
+			],
+			"rewrites": [
+				{
+					"source": "/api/**",
+					"run": {
+						"serviceId": "ufe-app-stage",
+						"region": "us-central1"
+					}
+				},
+				{
+					"source": "**",
+					"destination": "/index.html"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+.Header-Title {
+	padding-top: 15px;
+}
+.Header-Button {
+    display: flex;
+    align-items: center;
+}
+
+.Status-switch {
+	margin-top: 10px;
+}
+@media (max-width: 900px) {
+	.Header-Status {
+		width: 120px;
+	}
+}
+.buckscc-saveAlert p {
+	margin-bottom: 5px;
+}

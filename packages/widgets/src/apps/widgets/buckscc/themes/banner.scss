@@ -1,0 +1,23 @@
+//cart banner
+.ess-cart-banner {
+
+    --hxo-banner-bg: #cce5ff;
+    --hxo-banner-color: #004085;
+    --hxo-banner-border: #b8daff;
+
+    &.hxoDark{
+        --hxo-banner-bg: #313131;
+        --hxo-banner-color: #fff;
+        --hxo-banner-border: #222;
+    }
+
+    color: var(--hxo-banner-color);
+    background-color: var(--hxo-banner-bg);
+    border-color: var(--hxo-banner-border);
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+.hxoModernLayeredTheme {
+    --hxoLayer1:#eee;
+    --hxoLayer2:#eee;
+    &.hxoDark{
+    --hxoLayer1: #313131;
+    --hxoLayer2: #262626;
+    }
+	.buckscc-select-styled {
+		box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.15),
+			0 1px 1px rgba(0, 0, 0, 0.15), 0 9px 0 -5px var(--hxoLayer1),
+			0 9px 1px -4px rgba(0, 0, 0, 0.15), 0 18px 0 -10px var(--hxoLayer2),
+			0 18px 1px -9px rgba(0, 0, 0, 0.15) !important;
+	}
+	.active {
+		box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.15),
+			0 1px 1px rgba(0, 0, 0, 0.15), 0 10px 0 -5px var(--hxoLayer1),
+			0 10px 1px -4px rgba(0, 0, 0, 0.15), 0 20px 0 -10px var(--hxoLayer2),
+			0 20px 1px -9px rgba(0, 0, 0, 0.15) !important;
+	}
+}

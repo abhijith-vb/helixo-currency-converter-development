@@ -1,0 +1,6 @@
+/**
+ * THIS IS AN EXAMPLE FILE DON'T RENAME THIS FILE
+ * CREATE AND COPY PASTE THE CONTENT OF THIS FILE TO accessToken.js
+ */
+
+module.exports = 'af5dc2d8feeb52e3c25579d1efd9ee55';

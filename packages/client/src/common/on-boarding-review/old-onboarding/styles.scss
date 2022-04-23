@@ -1,0 +1,38 @@
+.step-wrapper {
+    width: 450px;
+}
+.rate-feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.onboarding-4-review {
+    .onboarding-4-progress {
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+
+    .onboarding-4-completed{
+        line-height: 2;
+        font-size: 19px;
+    }
+    .onboarding-4-completed-text {
+        color: rgba(0, 0, 0, 0.2);
+    }
+    .ant-typography {
+        margin-bottom: 0;
+    }
+    .ant-rate-star-first, .ant-rate-star-second {
+        // color: #d8d8d8;
+    }
+    .ant-rate-star {
+        font-size: 35px;
+    }
+    .onboarding-4-why {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 2;
+        font-size: 18px;
+    }
+}

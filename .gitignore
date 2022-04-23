@@ -1,0 +1,26 @@
+# Loging
+.log
+
+# Development
+.DS_Store
+.jest-*
+lib
+.env
+accessToken.js
+
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+
+# Preserve Package
+!node_modules/@helixo
+!@helixo
+!packages/@helixo
+
+# Local Netlify folder
+.netlify
+netlify.toml
+.firebase
